@@ -7,7 +7,6 @@
   z-index: 2;
   position: absolute;
   left: 25px;
-  cursor: pointer;
 }
 .dropdown .dropdown-button {
   padding: 15px;
@@ -15,6 +14,7 @@
   color: #ffffff;
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 .dropdown .dropdown-button:hover {
   background-color: #be2530;
@@ -23,26 +23,23 @@
   width: 100%;
   position: absolute;
   background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10px;
+  display: block;
+  margin: 10px;
   border: 2.5px solid #931d25;
+  overflow: hidden;
+  list-style-type: none;
 }
 .dropdown .dropdown-link {
-  width: 100%;
+  display: block;
   text-align: center;
-  padding: 15px 0;
   font-size: 18px;
+  margin: 15px;
   text-decoration: none;
   color: #931d25;
 }
 .dropdown .dropdown-link:hover {
   color: #ffffff;
   background-color: #931d25;
-}
-.dropdown .dropdown-hidden {
-  display: none;
 }
 .tabs {
   width: 100%;
